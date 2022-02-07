@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+//common
+@import "common/reset";
+@import "common/layout";
+@import "common/header";
+@import "common/header";
+
+//main
+@import "main/visual";
+@import "main/intro";
+@import "main/info";
+
+//sub
+@import "sub/department";
+@import "sub/community";
+@import "sub/gallery";
+@import "sub/youtube";
+@import "sub/location";
+@import "sub/join";
