@@ -1,0 +1,34 @@
+{
+    "data" : [
+        {
+            "name": "Oliver",
+            "position" : "CEO",
+            "pic" : "member1.jpeg"
+        },
+        {
+            "name": "Julia",
+            "position" : "Vice president",
+            "pic" : "member2.jpeg"
+        },
+        {
+            "name": "Emily",
+            "position" : "Engineer",
+            "pic" : "member3.jpeg"
+        },
+        {
+            "name": "Peter",
+            "position" : "Designer",
+            "pic" : "member4.jpeg"
+        },
+        {
+            "name": "Nicole",
+            "position" : "Front-End Developer",
+            "pic" : "member5.jpeg"
+        },
+        {
+            "name": "David",
+            "position" : "Back-End Developer",
+            "pic" : "member6.jpeg"
+        }
+    ]
+}
