@@ -1,0 +1,105 @@
+.join{
+    >.inner{
+        padding: 100px 0;
+        section{
+            width: 100%;
+            .success{
+                width: 100%;
+                padding: 20px;
+                font: bold 16px/1 'doodle';
+                color: orange;
+            }
+            form{
+                width: 100%;
+                fieldset{
+                    width: 100%;
+                    table{
+                        width: 100%;
+                        border-top: 1px solid #ddd; 
+                        border-bottom: 1px solid #ddd; 
+                        border-collapse: separate;                       
+                        tbody{
+                            tr{
+                                position: relative;
+                                padding: 20px 0;
+                                margin-bottom: 10px;
+                                
+                                // 공통 레이아웃
+                                th, td{ padding: 20px 30px;}
+
+                                // th L/O
+                                th{ 
+                                    width: 10%;
+                                    text-align: left;
+                                    background: rgba(255, 166, 0, 0.3);
+
+                                    &.btnSet{ 
+                                        width: 100%;
+                                        text-align: center;
+                                        background: none;
+                                        padding: 30px 0;
+
+                                        input[type=reset], input[type=submit]{
+                                            width: 150px;
+                                            height: 30px;
+                                            margin: 0 50px;
+                                            background: orange;
+                                            border: none;
+                                            color: #fff;
+                                            font: 12px/30px 'arial';
+                                            letter-spacing: 2px;
+                                            cursor: pointer;
+                                            transition: .5s;
+                                        }
+                                        
+                                    }                                    
+                                }
+
+
+                                // td L/O
+                                td{
+                                    width: 50%;
+                                    position: relative;
+
+                                    input[type=text], input[type=password],input[type=email], select{
+                                        width: 60%;
+                                        padding: 5px 10px;
+                                        border: 1px solid #ccc;
+                                    }
+                                    select{
+                                        option{
+                                            font: 10px/1 'arial';
+                                        }
+                                    }
+                                    textarea{
+                                        width: 60%;
+                                        padding: 5px 10px;
+                                        resize: none;
+                                        border: 1px solid #ccc;
+                                    }
+                                    label{
+                                        font: 12px/1 'arial';
+                                        margin-right: 10px;
+                                        color: #555;
+                                    }
+                                    input[type=radio], input[type=checkbox]{
+                                        margin-right: 20px;
+                                    }
+
+
+                                    .err{
+                                        font: normal 11px/1 'arial';
+                                        color: red;
+                                        position: absolute;
+                                        left: 35px;
+                                        bottom: 5px;
+                                    }                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+footer{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 50px 0px;
+    
+    .inner{
+        width: 1180px; 
+        margin: 0 auto;
+        
+        p{
+            font: 12px/1 'arial';
+            color: #888;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width :$tablet){
+    footer{
+        .inner{
+            width: 100%;
+            padding-top: 0 3vw;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.youtube{
+    >.inner{
+        height: 1200px;
+        >section{
+            article{
+                width: 380px;
+                padding: 20px;
+                background: #f8f8f8;
+                float: left;
+                margin-right: 20px;
+                margin-bottom: 50px;
+                overflow: hidden;
+                box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+
+                &:nth-of-type(3n){ margin-right: 0;}
+
+                .wrap{
+                    width: 100%;                    
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: space-between;
+                    justify-content: center;
+
+                    .pic{
+                        width: 100%;
+                        height: 250px;
+                        margin-bottom: 20px;
+                        overflow: hidden;
+                        cursor: pointer;
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            transform: scaleY(1.1);
+                        }
+                    }
+                    .con{
+                        width: 100%;
+                        overflow: hidden;
+                        word-break: break-all;  // 영문 강제 줄바꿈
+
+                        h2{
+                            font: bold 16px/1.2 'arial';
+                            color: #555;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            font: 12px/1.2 'arial';
+                            color: #888;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.popup{
+    width: 100%;
+    height: 100vh;
+    padding: 5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}

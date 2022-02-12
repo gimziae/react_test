@@ -1,0 +1,63 @@
+#intro{
+    width: 100%;
+    height: 100vh;
+    padding: 150px 0;
+    .inner{
+        width: 1180px;
+        margin: 0 auto;
+       // position: relative;
+       text-align: center;
+
+        h1{
+            font: bold 30px/1 'arial';
+            color: #333;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        article{
+            width: 500px;
+            border: 1px solid #eee;
+            padding: 30px;
+
+            // svg
+            .baby{
+                fill: transparent; //배경색
+                stroke: #000; //보더
+                stroke-width: 5; //보더 굵기
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                transition: 2s;
+            }
+
+            &:hover{
+                .baby{
+                    fill: rgba(245, 222, 179, 0.5);
+                    stroke-dashoffset: 0;
+                }
+            }
+        }
+    }
+}
+
+
+/*
+Vector  ex) 아이콘
+: 좌표값을 서로 이어서 산술적으로 연산된 그래픽 표현 방법
+장점
+:화면 확대/축소 시 깨지지 않음
+단점
+:선,면으로 구성되다 보니 표현방식이 단순하다.
+
+Bitmap  ex) svg
+: 픽셀을 조합해서 이미지를 그리는 표현 방법
+장점
+:사진같은 풍부한 그래픽을 표현 가능하다
+단점
+:화면 확대/축소 시 계단현상 같은 그래픽 깨짐현상이 생긴다. 
+
+SVG(Scalable Vector Graphic) Vector 방식
+
+Canvas  Bitmap 방식
+
+
+*/ 

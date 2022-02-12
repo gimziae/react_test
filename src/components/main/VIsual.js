@@ -3,7 +3,7 @@ export default function Visual(){
         <figure>
             <div className="inner">
                 <main>
-                    <h1>visual</h1>                    
+                    <h1></h1>                    
                 </main>
             </div>
         </figure>

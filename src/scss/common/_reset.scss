@@ -10,10 +10,25 @@ ul, ol, li{
 
 a{
     text-decoration: none;
+    color: #333;
 }
 
-header, footer, main, section{
-    border: 1px solid red;
-    padding: 30px;
-    margin-bottom: 5px;
+.hidden{
+    opacity: 0;
+    transform: translateX(-999999px);
+}
+
+// fieldset 
+fieldset{
+    border: none;
+}
+
+// table 보더 사이간격
+table{
+    border-collapse: collapse;
+}
+
+// 가운데 배치
+label, input{
+    vertical-align: middle;
 }
